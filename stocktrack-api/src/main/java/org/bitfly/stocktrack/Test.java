@@ -8,11 +8,10 @@ import java.util.Objects;
 @Entity
 public class Test {
 
-    private @Id
-    @GeneratedValue
-    Long id;
-
+    private @Id @GeneratedValue Long id;
     private String name;
+
+    Test() {}
 
     Test(String name) {
         this.name = name;
@@ -24,6 +23,14 @@ public class Test {
 
     public String getName() {
         return this.name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     @Override
