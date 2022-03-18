@@ -14,6 +14,8 @@ Vue.component('ImportExcel', ImportExcel)
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false
 
+console.log(Vue.version)
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
