@@ -1,17 +1,16 @@
 # stockTracker
 
 # Frontend
-https://vuejs.org/
-https://bootstrap-vue.org/docs
+Using VueJS 3 with Element+
+https://vuejs.org/ 
+https://element-plus.org/en-US/
 
-## Vue Template
-https://www.creative-tim.com/learning-lab/vue/overview/soft-ui-dashboard/
-https://github.com/creativetimofficial/vue-soft-ui-dashboard?ref=vuejsexamples.com
-
-# Using Sprint Boot for the API
+# Backend
+##Spring Boot for the API
 https://spring.io/guides/tutorials/rest/
 
-# Setting Up MySQL
+#MySQL
+## Setting Up MySQL
 Get password from mysql container after starting
 ```
 docker logs stocktrack-mysql
