@@ -4,6 +4,10 @@
 https://vuejs.org/
 https://bootstrap-vue.org/docs
 
+## Vue Template
+https://www.creative-tim.com/learning-lab/vue/overview/soft-ui-dashboard/
+https://github.com/creativetimofficial/vue-soft-ui-dashboard?ref=vuejsexamples.com
+
 # Using Sprint Boot for the API
 https://spring.io/guides/tutorials/rest/
 

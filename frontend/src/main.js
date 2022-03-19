@@ -1,25 +1,13 @@
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-import Vue from 'vue'
-import App from './App'
-import router from './router'
+import { createApp } from "vue";
+import App from "./App.vue";
+import store from "./store";
+import router from "./router";
+import "./assets/css/nucleo-icons.css";
+import "./assets/css/nucleo-svg.css";
+import SoftUIDashboard from "./soft-ui-dashboard";
 
-import BootstrapVue from 'bootstrap-vue/dist/bootstrap-vue.esm'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
-import 'bootstrap/dist/css/bootstrap.css'
-
-import ImportExcel from './components/ImportExcel'
-Vue.component('ImportExcel', ImportExcel)
-
-Vue.use(BootstrapVue)
-Vue.config.productionTip = false
-
-console.log(Vue.version)
-
-/* eslint-disable no-new */
-new Vue({
-  el: '#app',
-  router,
-  components: { App },
-  template: '<App/>'
-})
+const appInstance = createApp(App);
+appInstance.use(store);
+appInstance.use(router);
+appInstance.use(SoftUIDashboard);
+appInstance.mount("#app");
