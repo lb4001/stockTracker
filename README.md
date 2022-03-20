@@ -1,32 +1,39 @@
 # stockTracker
 
+
+
 # Frontend
-Using VueJS 3 with Element+
+
+### VueJS 3 w/ TypeScript, Pinia, Vue Router
 https://vuejs.org/ 
+
+### Volar - VS Code Plugin
+https://github.com/johnsoncodehk/volar
+
+### Element+ UI Component Library
 https://element-plus.org/en-US/
+https://github.com/element-plus/unplugin-element-plus#readme
+
+Setting Up Element+
+https://element-plus.org/en-US/guide/quickstart.html#full-import
+
+
 
 # Backend
-##Spring Boot for the API
+### Spring Boot for the API
 https://spring.io/guides/tutorials/rest/
 
-#MySQL
-## Setting Up MySQL
+# MySQL
+### Setting Up MySQL
+Get MySQL image
+> docker pull mysql
+
 Get password from mysql container after starting
-```
-docker logs stocktrack-mysql
-```
+> docker logs stocktrack-mysql
 
 Connect to mysql using that password
-```
-docker exec -it stocktrack-mysql mysql -uroot -p
-```
+> docker exec -it stocktrack-mysql mysql -uroot -p
 
 Update password and host connection source
-```
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'mypassword';
-
-UPDATE mysql.user SET Host='%' WHERE Host='localhost' AND User='root';
-```
-
-
-
+> ALTER USER 'root'@'localhost' IDENTIFIED BY 'mypassword';
+> UPDATE mysql.user SET Host='%' WHERE Host='localhost' AND User='root';
