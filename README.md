@@ -37,3 +37,7 @@ Connect to mysql using that password
 Update password and host connection source
 > ALTER USER 'root'@'localhost' IDENTIFIED BY 'mypassword';
 > UPDATE mysql.user SET Host='%' WHERE Host='localhost' AND User='root';
+
+
+# Whiteboarding
+[Pic 1](https://github.com/lb4001/stockTracker/blob/ed1c20c59f5a0fa6ff41e0ba820eba00070e82fd/whiteboard/IMG_5060.HEIC)
