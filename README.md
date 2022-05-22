@@ -40,4 +40,4 @@ Update password and host connection source
 
 
 # Whiteboarding
-![Pic 1](/whiteboard/IMG_5060.HEIC?raw=true)
+![Pic 1](/whiteboard/IMG_5060.jpg?raw=true)
