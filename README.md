@@ -41,3 +41,7 @@ Update password and host connection source
 
 # Whiteboarding
 ![Pic 1](/whiteboard/IMG_5060.jpg?raw=true)
+![Pic 2](/whiteboard/IMG_5061.jpg?raw=true)
+![Pic 3](/whiteboard/IMG_5062.jpg?raw=true)
+![Pic 4](/whiteboard/IMG_5068.jpg?raw=true)
+![Pic 5](/whiteboard/IMG_5069.jpg?raw=true)
