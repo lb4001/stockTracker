@@ -40,4 +40,4 @@ Update password and host connection source
 
 
 # Whiteboarding
-![Pic 1](https://github.com/lb4001/stockTracker/blob/ed1c20c59f5a0fa6ff41e0ba820eba00070e82fd/whiteboard/IMG_5060.HEIC?raw=true)
+![Pic 1](/whiteboard/whiteboard/IMG_5060.HEIC)
