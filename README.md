@@ -27,9 +27,7 @@ https://spring.io/guides/tutorials/rest/
 ### Setting Up MySQL
 Get MySQL image
 > docker pull mysql
-
-Get password from mysql container after starting
-> docker logs stocktrack-mysql
+> docker run --name stocktrack-mysql -p 33060:3306 -e MYSQL_ROOT_PASSWORD=mypassword -d mysql
 
 Connect to mysql using that password
 > docker exec -it stocktrack-mysql mysql -uroot -p
